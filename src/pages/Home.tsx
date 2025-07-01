@@ -323,7 +323,7 @@ export default function Home() {
               {/* Navigation Links */}
               <nav className="px-6">
                 <ul className="space-y-2">
-                  {navItems.map((item, index) => (
+                  {navItems.map((item) => (
                     <motion.li
                       key={item.name}
                       initial={{ opacity: 0, x: 50 }}
